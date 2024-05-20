@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name" />
+
+<EditText
+    android:layout_width="246dp"
+    android:layout_height="wrap_content" />
+
+<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gen" />
+<RadioButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/m" />
+<RadioButton
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/f" />
+<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lang" />
+<CheckBox
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/t" />
+       
+<CheckBox
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/e" />
+
+<CheckBox
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/h" />
+
+ <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/res" />
+
+ <ToggleButton
+     android:layout_width="135dp"
+     android:layout_height="wrap_content"
+     android:text="@string/ok"
+     android:checked="true" />
+ 
+ <ToggleButton
+     android:layout_width="135dp"
+     android:layout_height="wrap_content"
+     android:checked="false"
+     android:text="No" />
+    
+<Button
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:text="@string/yes" />
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="hello">Calling Built in Application</string>
+    <string name="Dail">Dial</string>
+    <string name="Call">Call</string>
+    <string name="app_name">Built_in</string>
+
+</resources>

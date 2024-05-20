@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ApplicationActivity!</string>
+    <string name="app_name">Application</string>
+    <string name="title">Application form</string>
+    <string name="name">Enter your name:</string>
+    <string name="lang">What are the Language you Know?</string>
+    <string name="gen">Choose Your Gender</string>
+    <string name="m">Male</string>
+    <string name="f">Female</string>
+    <string name="t">Tamil</string>
+    <string name="e">English</string>
+    <string name="h">Hindi</string>
+    <string name="yes">Submit</string>
+    <string name="age">Enter Your Age</string>
+    <string name="res">Are You Resident in India</string>
+    <string name="ok">yes</string>
+
+</resources>
