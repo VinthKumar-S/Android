@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="heading">Calculator</string>
+    <string name="app_name">Cal</string>
+    <string />
+    <color name="Red">#db5a6b</color>
+    <color android:layout_width="wrap_content" android:id="@+id/color1" android:layout_height="wrap_content" name="moon">#3aa8c1</color>
+    <color android:id="@+id/color1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="green">8bbe1b</color>
+
+</resources>

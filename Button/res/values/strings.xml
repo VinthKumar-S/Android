@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ButtonActivity!</string>
+    <string name="app_name">Button</string>
+    <string name="l1">First prototype</string>
+    <string name="label">Enter your name</string>
+    <string name="output">submit</string>   
+
+</resources>
