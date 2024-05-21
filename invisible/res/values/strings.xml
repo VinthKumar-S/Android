@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Invisible</string>
+       <string name="hello">Toast Message</string>
+	    <string name="label">Enter your Name:</string>
+			    <string name="yes">Submit:</string>
+
+</resources>

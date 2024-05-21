@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/bg" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tit" 
+        android:textSize="50dp"
+        android:background="@color/txt"
+        android:gravity="center"/>
+    <TableRow >
+      <TextView
+        android:layout_width="120dp"
+        android:text="@string/name"
+        android:textColor="@color/txt"
+                        android:textSize="20dp"
+        
+        />
+      <EditText
+          android:id="@+id/e1"
+                  android:textColor="@color/in"        
+          android:layout_width="200dp" 
+          />
+</TableRow>
+  
+  <TableRow >
+      <TextView
+        android:layout_width="120dp"
+                android:textSize="20dp"
+        android:textColor="@color/txt"        
+        android:text="@string/pass"
+        />
+            <EditText
+           android:id="@+id/e2"               
+          android:layout_width="200dp"
+                  android:textColor="@color/in"        
+          android:inputType="textPassword"
+          />
+      
+</TableRow>
+
+  <TableRow >
+      <Button
+                    android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:text="@string/yes"
+        android:background="@color/but"
+        />
+            <Button
+          android:id="@+id/b2"
+          android:layout_width="wrap_content"
+          android:layout_marginLeft="5dp"
+                  android:text="@string/re"
+          android:background="@color/but"
+          />
+      
+</TableRow>
+
+</TableLayout>
