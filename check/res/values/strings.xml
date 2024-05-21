@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Calculator</string>
+    <string name="app_name">Check</string>
+    <color name="cool">#188FCF</color>
+    <color name="green">#0F9D58</color>
+    <color name="cp">#6200EE</color>
+
+</resources>
