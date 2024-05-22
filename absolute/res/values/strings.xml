@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">Absolute Layout</string><color name="cool">#188FCF</color><color name="green">#0F9D58</color><color name="cp">#6200EE</color>
+    <string name="hello">AbsoluteLayout</string>
     <string name="app_name">Absolute</string>
 
 </resources>
