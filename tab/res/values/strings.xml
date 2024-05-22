@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">UserName</string>
+    <string name="app_name">Tab</string>
+    <string name="pass">Password</string>
+    <string name="rempass">Remember Password</string>
+    <string name="forgpass">ForgotPassword</string>
+    <string name="log">Log In</string>
+    <color name="bg">#6200EE</color>
+    <color name="txt">#188FCF</color>
+    <color name="b">#0F9D58</color>
+
+</resources>
