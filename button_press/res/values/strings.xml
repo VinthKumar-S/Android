@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Button_press</string>
+    <string name="ac">ActionPerformings</string>
+    <string name="fn">FristName</string>
+    <string name="ln">LastName</string>
+    <string name="b">Submit</string>
+    
+     <style name="green" parent="@android:style/Widget.TextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#61d089</item>
+    </style>
+    
+      <style name="blue" parent="@android:style/Widget.TextView">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">#015ddf</item>
+    </style>
+    
+     <style name="pink" parent="@android:style/Widget.TextView">
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">#ff1f74</item>
+    </style>
+    
+	<color name="bg">#f498ad</color>  
+	<color name="button">#e0af1f</color>      
+
+</resources>
