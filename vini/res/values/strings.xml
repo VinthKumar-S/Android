@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ViniActivity!</string>
+    <string name="name">Vinith Kumar</string><string name="app_name">Vini</string>
+    <style name="green" parent="@android:style/Widget.TextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#61d089</item>
+    </style>
+</resources>

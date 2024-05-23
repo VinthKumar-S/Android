@@ -3,7 +3,5 @@
 
     <string name="hello">Toast Message</string>
     <string name="app_name">Toast</string>
-	    <string name="label">Enter your Name:</string>
-			    <string name="yes">Submit:</string>
-	    
+
 </resources>

@@ -1,29 +1,28 @@
 package com.toast;
 
 
-
 import android.app.Activity;
-
 import android.os.Bundle;
-import android.view.*;
 import android.widget.*;
-import android.view.View.*;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Toast;
 
 public class ToastActivity extends Activity implements OnClickListener {
     /** Called when the activity is first created. */
-	 Button b;
+	 Button B;
 	    EditText e;
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        b=(Button)findViewById(R.id.b2);
-        e=(EditText)findViewById(R.id.e1);
-        b.setOnClickListener(this);
+        B=(Button)findViewById(R.id.B);
+        e=(EditText)findViewById(R.id.e);
+        B.setOnClickListener((OnClickListener) this);
     }
-    @Override
-	public void onClick(View v) {
-		// TODO Auto-generated method stub
-		String s1="Hello "+e.getText();
-		Toast.makeText(getApplicationContext(),s1,Toast.LENGTH_SHORT).show();
-	}
+    public void onClick(View v)
+    {
+    	String s1=e.getText()+"";
+        Toast.makeText(getApplicationContext(),"Hello "+s1,Toast.LENGTH_SHORT).show();
+
+    }
 }
